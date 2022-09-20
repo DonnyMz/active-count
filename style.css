@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Khand", sans-serif;
+  background-color: #eeeeee;
+  color: #6a90e2;
+  font-size: 22px;
+}
+
+.top-section {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
+  color: #08183f;
+  font-size: 22px;
+  word-spacing: 2px;
+  height: 100vh;
+}
+.top-section .figure h3,
+.top-section .figure .scroll,
+.top-section .figure i {
+  display: flex;
+  justify-content: center;
+}
+
+.counters {
+  background-color: #282629;
+  padding: 2rem 0 2rem 0;
+}
+.counters h2 {
+  text-align: center;
+}
+.container {
+  background-color: #282629;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+}
+
+.container_counter {
+  background-color: #282629;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid rgb(223, 191, 9);
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.fas {
+  width: 40px;
+}
+
+/* ------------- 700 ------------  */
+@media (min-width: 700px) {
+  .counters .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .container {
+    gap: 20px;
+    width: auto;
+  }
+
+  .counter {
+    text-align: center;
+    width: 200px;
+  }
+}
