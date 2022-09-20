@@ -2,8 +2,8 @@
 
 this counter will appear on scroll done with html, css and Javascript.
 
-# readme image active counter
+![active counter image](active-count\activeCounter.jpg)
 
-this active counter will appear on scroll
+# see active counter in codepen
 
-![Active Counter] (images\activeCounter.jpg)[(see in codepen)](https://codepen.io/donnymz/pen/JjvJvXd)
+![(see in codepen)](https://codepen.io/donnymz/pen/JjvJvXd)
